@@ -17,3 +17,6 @@ with open('./input.txt', 'r') as f:
   # don't even know what I did to fix this one, I was getting 1214 for the longest time
   # rewrote, changed the input to convert to int when it reads in. Hardcoded the initial 3
   # values so that it doesn't need to check for previous. 
+
+  # learned from a comment section on reddit that by thinking it through, I could optimise this
+  # a + b + c < b + c + d can be canceled down to a < d.
